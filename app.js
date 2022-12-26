@@ -1,3 +1,4 @@
+
 const form = document.querySelector('#message-form');
         form.addEventListener('submit', function(event) {
           event.preventDefault(); // prevent the form from submitting
