@@ -1,0 +1,93 @@
+html{
+    background: burlywood;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+    color: brown;
+    font-weight: 900;
+    font-size: large;
+    font-family : 'Dancing Script', cursive ;
+
+}
+
+.rst{
+    display: flex;
+    justify-content: center;
+    color: rgb(197, 72, 72);
+    font-weight: 850;
+
+    font-family : 'Dancing Script', cursive ;
+}
+/* La barre de navigation */
+.nav-bar ul li{
+    list-style-type: none;
+   
+}
+.nav-bar ul{
+    /*background-color: aliceblue;*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.ilage-accueil{
+    height:  750px;
+}
+
+/*Fin de la barre de navigation */
+
+.container-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px 0px; 
+    font-family : 'Dancing Script', cursive ;
+    
+    
+}
+
+.card{
+    width: 300px;
+    justify-content: center;
+    background-color: aliceblue;
+    margin-left: 20px;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.texte_1_container{
+    margin-left: 25px;
+    align-content: center;
+}
+
+.instagram{
+    /*display: flex;
+    flex-direction: row;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 70px 0px; 
+}
+
+
+.img_insta{
+    width: 200px;
+    height: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.photo-produit{
+   width: 250px;
+    height: 125px;
+    justify-content: center;
+}
+
+.button{
+    position: relative;
+}
