@@ -100,3 +100,7 @@ form {
   .commende h1{
     margin-left: 10px;
   }
+
+  section{
+    background-image: url(image/images\ \(2\).jpg) ; width: 100%;
+  }
